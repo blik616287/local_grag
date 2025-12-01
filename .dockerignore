@@ -1,0 +1,35 @@
+# Models (mounted as volumes, not copied)
+models/
+
+# Git
+.git/
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+.Python
+
+# Documentation
+*.md
+!README.md
+
+# Scripts
+setup.sh
+cleanup.sh
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker volumes
+neo4j_data/
+postgres_data/
+redis_data/
+rabbitmq_data/
